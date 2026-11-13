@@ -50,7 +50,7 @@
 
 ## 4. ⚡ 30 秒上手
 
-> **前置（只需做一次）**：到 [TikTok 视频搜索API](https://www.guaikei.com) 自助开通 Token，然后配置环境变量：
+> **前置（只需做一次）**：到 [TikTok 博主作品与评论API](https://www.guaikei.com) 自助开通 Token，然后配置环境变量：
 >
 > ```bash
 > # Windows
@@ -199,7 +199,7 @@ A：支持。stdout 是纯 JSON、退出码语义明确，可直接被脚本或 
 ## 9. 💳 计费与支持
 
 - **计费**：按 API 调用量计费，官方渠道开通，用量透明可查；**失败调用不计费**。按量单次最多 10000；包月搜索/作品最多 30、评论最多 40，超限为 `PLAN_LIMIT`。
-- **开通 / 支持**：[TikTok 达人与评论数据API](https://www.guaikei.com) 自助开通 Token，并查阅使用帮助。
+- **开通 / 支持**：[TikTok 视频助手使用文档](https://www.guaikei.com) 自助开通 Token，并查阅使用帮助。
 - **更新日志**：[references/changelog.md](references/changelog.md)
 
 ---
