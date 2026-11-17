@@ -6,6 +6,11 @@ name: tt-voc
 description: "TikTok 公开视频数据只读技能：关键词搜视频、博主作品、视频评论，输出 JSON，不登录不发布。触发词：TikTok、tiktok、抖音国际版、TikTok搜索、TikTok评论、TikTok博主。用户要查 TikTok 视频、评论、爆款选题、竞品监控、KOL 筛选或评论舆情时使用；抖音、小红书、快手、B站、微博、公众号不要用本技能。"
 license: MIT
 version: 1.1.2
+display_name: "TikTok视频助手｜关键词搜索·博主作品·视频评论"
+display_name_en: "TikTok Video Assistant"
+description_zh: "TikTok 公开视频数据只读技能：关键词搜索视频（支持相关度/最多点赞排序与时间窗筛选）、按主页链接/@用户名/sec_uid 拉取博主作品（最新/最热排序）、按视频链接或作品 ID 获取评论与互动数据；按量单次最多 10000 条，包月搜索/作品/评论分别最多 30/30/40，全部以结构化 JSON 输出，不登录不发布，适用于爆款选题、竞品监控、KOL 筛选、评论舆情与海外短视频分析。"
+description_en: "Read-only TikTok public video data skill: keyword video search (with relevance / most-liked sorting and time-window filtering), creator posts by profile link, @username or sec_uid (latest / hottest sorting), and comments with engagement by video link or post ID; up to 10,000 records per pay-as-you-go request, with monthly plan caps of 30 searches / 30 posts / 40 comment queries, all returned as structured JSON, with no login and no posting; for viral topic discovery, competitor monitoring, KOL screening, comment sentiment and overseas short-video analysis."
+author: "新郑市怪奇信息技术工作室"
 metadata:
   openclaw:
     emoji: "🎵"
